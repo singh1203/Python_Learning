@@ -7,3 +7,5 @@
 
 - List are Mutable Sequences
 - Can be iterated using loops
+
+### The enumerate() function adds a counter to an iterable and returns it as an enumerate object (iterator with index and the value).
