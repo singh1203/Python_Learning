@@ -38,3 +38,25 @@ print()
 # Another Example for enumeration 
 for index, character in enumerate("abcdefgh"):
     print(index, character)
+
+
+# Tidier version of the above code
+
+valid_choices = []
+for i in range(1, len(available_parts) + 1):
+       valid_choices.append(str(i))
+print(valid_choices)
+
+while current_choices != '0':
+       if current_choices in valid_choices:
+              index = int(current_choices) - 1
+              chosen_part = available_parts[index]
+              print("Adding {}".format(chosen_part))
+              computer_parts.append(chosen_part)
+       else:
+              print("Please add options from the list below:")
+              for number, part in enumerate(available_parts):
+                     print("{0}: {1}".format(number + 1, part))
+
+       current_choices = input()
+
