@@ -12,7 +12,9 @@ if "cinema" not in activity.casefold():
 # - Syntax -> "value not in collection"
 
 # ## Note:
-# - Don’t confuse the in keyword when it works as the membership operator with the in keyword in the for loop syntax. They have entirely different meanings. The in operator checks if a value is in a collection of values, while the in keyword in a for loop indicates the iterable that you want to draw from.
+# - Don’t confuse the in keyword when it works as the membership operator with the in keyword in the for loop syntax. 
+# They have entirely different meanings. The in operator checks if a value is in a collection of values, 
+# while the in keyword in a for loop indicates the iterable that you want to draw from.
 
 # - Example:
 # `
