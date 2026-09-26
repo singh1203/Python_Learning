@@ -14,10 +14,19 @@ print(z)
 print("Unpacking a list")
 
 data_list = [12, 13, 15]
-data_list.append(14)
+# data_list.append(14)
 
 p, q, r = data_list
 print(p)
 print(q)
 print(r)
 
+# Unpacking the Tuples 
+
+from nested_data import albums
+
+while True:
+    print("Please choose your album (invalid choice exits):")
+    for index, (title, artist, year, songs) in enumerate(albums):
+        print("{}: {}, {}, {}".format(index + 1, title, artist, year, songs))
+    break
