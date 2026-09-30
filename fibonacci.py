@@ -6,10 +6,16 @@ def fibonacci(n):
 
     return fibonacci(n - 1) + fibonacci(n - 2)
 
-def fibonacci_second(n):
+def fibonacci_second(n: int) -> int:
+    """Return the `n` th Fibonacci number, for positive `n`."""
     if n < 0:
-        return "Incorrect input"
+        return 0
+    
+    if 0 <= n <= 1:
+        return n
+    
     a, b = 0, 1
+
     for _ in range(n):
         a, b = b, a + b
     return a

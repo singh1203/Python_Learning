@@ -2,6 +2,15 @@
 
 This repository contains a collection of beginner-friendly Python examples and exercises that cover variables, strings, formatting, operators, and object-oriented concepts.
 
+## Functions
+
+- [fibonacci.py](fibonacci.py) practices defining functions and returning Fibonacci numbers with iterative and recursive approaches.
+- [factorial.py](factorial.py) calculates factorials and practices function parameters, return values, and recursion.
+- [parameter_type.py](parameter_type.py) demonstrates positional, keyword-only, variable positional (`*args`), and variable keyword (`**kwargs`) parameters.
+- [star_example.py](star_example.py) shows how `*args` collects arguments into a tuple and how `*` unpacks a sequence into function arguments.
+
+## Other Python Examples
+
 - [main.py](main.py) is the main entry script for quick Python output and learning examples.
 - [Variable.py](Variable.py) explains how Python variables and data types are used in everyday code.
 - [strings.py](strings.py) demonstrates how strings are created, combined, and used in simple Python programs.
@@ -13,7 +22,6 @@ This repository contains a collection of beginner-friendly Python examples and e
 - [formatting.py](formatting.py) highlights string formatting and placeholder-based output patterns.
 - [f-strings.py](f-strings.py) demonstrates the modern and readable way to format strings with f-strings.
 - [strongTyped.py](strongTyped.py) introduces Python's dynamic typing and the idea of strong but not statically typed values.
-- [fibonacci.py](fibonacci.py) implements the Fibonacci series using both a recursive function and an iterative loop.
 - [nested_data.py](nested_data.py) stores a nested list of tuples (albums with their track listings) used as sample data for unpacking examples.
 - [splitting_things.py](splitting_things.py) explores `split()` and `join()` for word frequency counting and parsing delimited strings.
 - [UnpackingSequence.py](UnpackingSequence.py) demonstrates unpacking tuples and lists into variables, including nested tuple unpacking with `enumerate()`.
