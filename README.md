@@ -50,6 +50,17 @@ This repository contains beginner-friendly Python examples and exercises coverin
 - [dictionary/recipe_option.py](dictionary/recipe_option.py) compares representing recipe ingredients with tuples and nested dictionaries.
 - [dictionary/meal_planner.py](dictionary/meal_planner.py) compares recipe requirements with pantry inventory and builds a shopping list.
 
+## Sets
+
+- [set/set_intro.py](set/set_intro.py) introduces set creation, iteration, equality, uniqueness, and the fact that sets are not indexable.
+- [set/set_methods.py](set/set_methods.py) demonstrates removing set elements with `discard()` and `remove()`.
+- [set/set_union.py](set/set_union.py) combines medicine interaction sets using union operations and update operators.
+- [set/set_intersection.py](set/set_intersection.py) finds elements shared by multiple sets using intersection methods and operators.
+- [set/set_difference.py](set/set_difference.py) practices set difference and symmetric difference with number and course examples.
+- [set/primes_and_squares.py](set/primes_and_squares.py) defines generators for prime numbers and perfect squares, then uses sets to collect their results.
+- [set/packing_list.py](set/packing_list.py) removes restricted items from a packing list based on the selected travel mode.
+- [set/prescription_data.py](set/prescription_data.py) provides sample prescription and adverse-interaction data used by the set examples.
+
 ## Object-Oriented Programming
 
 - [classes/Oops.py](classes/Oops.py) introduces a basic object-oriented example with a simple bank account class.
